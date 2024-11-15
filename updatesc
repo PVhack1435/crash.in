@@ -1,0 +1,13 @@
+@echo off
+color 3
+echo Updating Windows...
+echo.
+echo  Downloading update (95%)
+timeout 2
+echo  Downloading update (100%)
+echo.
+echo  Installing update...
+timeout 3
+echo  Update installed!
+pause
+shutdown -r -t 10
