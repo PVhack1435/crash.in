@@ -1,0 +1,13 @@
+@echo off
+color 17
+echo.
+echo.
+echo         *** BLUE SCREEN OF DEATH ***
+echo.
+echo  A problem has been detected and Windows has been shut down to prevent damage
+echo  to your computer.
+echo.
+echo  ERROR: UNDEFINED_BLUE_SCREEN_ERROR
+echo.
+pause
+shutdown -s -t 10
